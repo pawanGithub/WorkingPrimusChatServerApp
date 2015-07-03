@@ -1,0 +1,24 @@
+{
+  "name": "echo",
+  "version": "0.0.0",
+  "description": "simple echo example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primus",
+    "example",
+    "echo"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "dependencies": {
+    "create-server": "0.0.7",
+    "diagnostics": "^1.0.1",
+    "eventemitter3": "^1.1.1",
+    "primus": "^3.1.1",
+    "transformer": "0.0.8",
+    "ws": "^0.7.2"
+  }
+}
